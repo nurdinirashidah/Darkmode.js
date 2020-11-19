@@ -3,3 +3,8 @@ node_js:
   - "node"
   - "7"
   - "6"
+  
+
+after_success:
+- bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
+  
